@@ -1,6 +1,10 @@
 import React, { useState } from 'react';
 import data from './data';
 import List from './List';
+/**
+ * We're using the useState hook to create a state variable called people, which is set to the data
+ * array. We're then passing the people array to the List component as a prop
+ */
 function App() {
   const [people,setPeople] = useState(data);
 

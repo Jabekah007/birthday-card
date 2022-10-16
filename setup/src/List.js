@@ -1,5 +1,10 @@
 import React from 'react';
 
+/**
+ * We're mapping over the people array and returning an article element for each person
+ * @returns An array of JSX elements.
+ */
+
 const List = ({people}) => {
   return (
     <>
